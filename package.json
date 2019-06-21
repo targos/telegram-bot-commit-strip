@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "telegram-bot-commit-strip",
+  "version": "1.0.0",
+  "description": "Telegram bot that posts new CommitStrip strips on a selected channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targos/telegram-bot-commit-strip.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/targos/telegram-bot-commit-strip/issues"
+  },
+  "homepage": "https://github.com/targos/telegram-bot-commit-strip#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "fast-xml-parser": "^3.12.16",
+    "got": "^9.6.0",
+    "telegraf": "^3.30.1"
+  }
+}
